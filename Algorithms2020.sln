@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DynamicProgramming", "DynamicProgramming", "{3A53A1C8-4F05-4594-8645-43891FD86652}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciDynamic", "FibonacciDynamic\FibonacciDynamic.csproj", "{2FCADC95-4A72-4A8A-A4A2-C141BFCF6D99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.Test.Console", "Algorithms2020.Test.Console\Algorithms2020.Test.Console.csproj", "{1F7CC728-8420-4AF9-B78C-EA3847F25780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.FibonacciDynamic.Tests", "Algorithms2020.FibonacciDynamic.Tests\Algorithms2020.FibonacciDynamic.Tests.csproj", "{47397E2F-EE40-47BF-BFFE-FF4EC4082269}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StacksAndQueues", "StacksAndQueues", "{33A86D19-1695-4FF4-9009-419C4127979D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.CustomStack", "Algorithms2020.CustomStack\Algorithms2020.CustomStack.csproj", "{D4F99C69-FE0A-4E41-B8D4-E28587D8AA8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.CustomQueue", "Algorithms2020.CustomQueue\Algorithms2020.CustomQueue.csproj", "{93E13B22-B28A-42BB-98C3-BD8E3EA0FD73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{0D90D7D8-7B14-488C-B095-CCF7D6C5E0FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lists", "Lists", "{D6931075-B5CA-4534-914B-D63A26119F5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.CustomLists", "Algorithms2020.CustomLists\Algorithms2020.CustomLists.csproj", "{6A026368-0569-4917-B652-E7C88F4C35B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{64223EFB-8E85-4D65-9C18-420603962103}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.CustomLists.Tests", "Algorithms2020.CustomLists.Tests\Algorithms2020.CustomLists.Tests.csproj", "{E953595F-D21C-49A8-A376-A775FE568CDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms2020.CustomHeap", "Algorithms2020.CustomHeap\Algorithms2020.CustomHeap.csproj", "{B4E08CC3-E921-4F07-99B7-6B4B81DD6A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FCADC95-4A72-4A8A-A4A2-C141BFCF6D99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FCADC95-4A72-4A8A-A4A2-C141BFCF6D99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FCADC95-4A72-4A8A-A4A2-C141BFCF6D99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FCADC95-4A72-4A8A-A4A2-C141BFCF6D99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7CC728-8420-4AF9-B78C-EA3847F25780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7CC728-8420-4AF9-B78C-EA3847F25780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7CC728-8420-4AF9-B78C-EA3847F25780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7CC728-8420-4AF9-B78C-EA3847F25780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47397E2F-EE40-47BF-BFFE-FF4EC4082269}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47397E2F-EE40-47BF-BFFE-FF4EC4082269}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47397E2F-EE40-47BF-BFFE-FF4EC4082269}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47397E2F-EE40-47BF-BFFE-FF4EC4082269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F99C69-FE0A-4E41-B8D4-E28587D8AA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F99C69-FE0A-4E41-B8D4-E28587D8AA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F99C69-FE0A-4E41-B8D4-E28587D8AA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F99C69-FE0A-4E41-B8D4-E28587D8AA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E13B22-B28A-42BB-98C3-BD8E3EA0FD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E13B22-B28A-42BB-98C3-BD8E3EA0FD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E13B22-B28A-42BB-98C3-BD8E3EA0FD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E13B22-B28A-42BB-98C3-BD8E3EA0FD73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A026368-0569-4917-B652-E7C88F4C35B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A026368-0569-4917-B652-E7C88F4C35B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A026368-0569-4917-B652-E7C88F4C35B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A026368-0569-4917-B652-E7C88F4C35B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E953595F-D21C-49A8-A376-A775FE568CDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E953595F-D21C-49A8-A376-A775FE568CDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E953595F-D21C-49A8-A376-A775FE568CDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E953595F-D21C-49A8-A376-A775FE568CDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4E08CC3-E921-4F07-99B7-6B4B81DD6A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4E08CC3-E921-4F07-99B7-6B4B81DD6A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4E08CC3-E921-4F07-99B7-6B4B81DD6A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4E08CC3-E921-4F07-99B7-6B4B81DD6A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2FCADC95-4A72-4A8A-A4A2-C141BFCF6D99} = {3A53A1C8-4F05-4594-8645-43891FD86652}
+		{D4F99C69-FE0A-4E41-B8D4-E28587D8AA8D} = {33A86D19-1695-4FF4-9009-419C4127979D}
+		{93E13B22-B28A-42BB-98C3-BD8E3EA0FD73} = {33A86D19-1695-4FF4-9009-419C4127979D}
+		{6A026368-0569-4917-B652-E7C88F4C35B8} = {D6931075-B5CA-4534-914B-D63A26119F5A}
+		{64223EFB-8E85-4D65-9C18-420603962103} = {D6931075-B5CA-4534-914B-D63A26119F5A}
+		{E953595F-D21C-49A8-A376-A775FE568CDB} = {64223EFB-8E85-4D65-9C18-420603962103}
+		{B4E08CC3-E921-4F07-99B7-6B4B81DD6A3D} = {0D90D7D8-7B14-488C-B095-CCF7D6C5E0FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8000C527-C145-4397-8284-40F33FEC8F5C}
+	EndGlobalSection
+EndGlobal
