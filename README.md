@@ -1,1 +1,1 @@
-# algorithmsImplementation_dotnet3.1
+# algorithmsImplementation_dotnetcore3.1
