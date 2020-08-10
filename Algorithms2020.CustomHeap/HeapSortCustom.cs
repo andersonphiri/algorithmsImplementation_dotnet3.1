@@ -104,4 +104,15 @@ namespace Algorithms2020.CustomHeap
             return elementsToSort;
         }
     }
+
+    public readonly struct Constitution
+    {
+        readonly object Parliament;
+        readonly object stitution;
+        readonly object president;
+
+        public Constitution(object senate, object con, object ed) => (Parliament, stitution, president) = (senate, con, ed);
+
+
+    }
 }

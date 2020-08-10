@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 
 namespace Algorithms2020.CustomHeap
 {
@@ -11,11 +13,13 @@ namespace Algorithms2020.CustomHeap
         protected readonly int _d = 2;
         protected int heapSize;
         protected T[] heap;
+        protected ArrayList heap2 = new ArrayList();
 
         public HeapBase(int size)
         {
             heap = new T[size + 1];
             heapSize = 0;
+
         }
 
 

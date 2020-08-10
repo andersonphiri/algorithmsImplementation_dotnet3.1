@@ -6,10 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Algorithms2020.BinaryTree\Algorithms2020.BinaryTree.csproj" />
     <ProjectReference Include="..\Algorithms2020.CustomHeap\Algorithms2020.CustomHeap.csproj" />
     <ProjectReference Include="..\Algorithms2020.CustomLists\Algorithms2020.CustomLists.csproj" />
     <ProjectReference Include="..\Algorithms2020.CustomQueue\Algorithms2020.CustomQueue.csproj" />
     <ProjectReference Include="..\FibonacciDynamic\FibonacciDynamic.csproj" />
+    <ProjectReference Include="..\GraphDataStructure\GraphDataStructure.csproj" />
   </ItemGroup>
 
 </Project>
