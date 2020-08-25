@@ -35,9 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphDataStructure", "Graph
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs.Tests", "Graphs.Tests\Graphs.Tests.csproj", "{9DF278DB-01E9-4F47-95E0-D8E3D372A5FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms2020.BinaryTree", "Algorithms2020.BinaryTree\Algorithms2020.BinaryTree.csproj", "{7E2D6D5A-F39D-4C47-8158-A86745EDBB11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.BinaryTree", "Algorithms2020.BinaryTree\Algorithms2020.BinaryTree.csproj", "{7E2D6D5A-F39D-4C47-8158-A86745EDBB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms2020.UnitTestsAll", "Algorithms2020.UnitTestsAll\Algorithms2020.UnitTestsAll.csproj", "{6022FA63-B39B-43F7-AAB4-101597780347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorithms2020.UnitTestsAll", "Algorithms2020.UnitTestsAll\Algorithms2020.UnitTestsAll.csproj", "{6022FA63-B39B-43F7-AAB4-101597780347}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Searching", "Searching", "{FF583E71-01FF-4415-A4A9-2B56E2C296A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms2020.Searching", "Searching\Algorithms2020.Searching\Algorithms2020.Searching.csproj", "{BC5EF059-315E-4274-B4F8-1348781EB476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{7BF780D7-6595-421C-B16B-622B3435F6AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms2020.Sorting", "Sorting\Algorithms2020.Sorting\Algorithms2020.Sorting.csproj", "{8327CAF3-A7BC-473D-B36F-E61281C4E532}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +101,14 @@ Global
 		{6022FA63-B39B-43F7-AAB4-101597780347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6022FA63-B39B-43F7-AAB4-101597780347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6022FA63-B39B-43F7-AAB4-101597780347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC5EF059-315E-4274-B4F8-1348781EB476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC5EF059-315E-4274-B4F8-1348781EB476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC5EF059-315E-4274-B4F8-1348781EB476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC5EF059-315E-4274-B4F8-1348781EB476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8327CAF3-A7BC-473D-B36F-E61281C4E532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8327CAF3-A7BC-473D-B36F-E61281C4E532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8327CAF3-A7BC-473D-B36F-E61281C4E532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8327CAF3-A7BC-473D-B36F-E61281C4E532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +124,8 @@ Global
 		{BDA086EF-0D0D-4ED3-9921-527745D21258} = {7E8781BC-2BD1-44F7-820D-8955CF6C2177}
 		{9DF278DB-01E9-4F47-95E0-D8E3D372A5FD} = {7E8781BC-2BD1-44F7-820D-8955CF6C2177}
 		{7E2D6D5A-F39D-4C47-8158-A86745EDBB11} = {0D90D7D8-7B14-488C-B095-CCF7D6C5E0FF}
+		{BC5EF059-315E-4274-B4F8-1348781EB476} = {FF583E71-01FF-4415-A4A9-2B56E2C296A8}
+		{8327CAF3-A7BC-473D-B36F-E61281C4E532} = {7BF780D7-6595-421C-B16B-622B3435F6AB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8000C527-C145-4397-8284-40F33FEC8F5C}
